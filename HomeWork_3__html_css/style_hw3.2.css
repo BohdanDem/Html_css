@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    background-color: rgba(217, 217, 217, 0.1);
+    display: flex;
+    justify-content: right;
+}
+
+nav {
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 35px;
+    color: #7A7070;
+}
+
+.act-link {
+    color: #3D6FB4;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 40vw;
+    height: 80vh;
+}
+
+h1 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 101px;
+    color: #000000;
+    margin: 30px 0;
+    padding-left: 120px;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 51px;
+    color: #000000;
+    padding-left: 120px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.btn {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border: solid 1px #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.btn-left {
+    width: 150px;
+    height: 55px;
+    margin-left: 120px;
+}
+
+.btn-right {
+    width: 130px;
+    height: 55px;
+    background: #ECBCBC;
+    margin-left: 40px;
+}
+
+section {
+    background: url(superhero.png) center no-repeat;
+    width: 40vw;
+    height: 60vh;
+    margin-top: 10px;
+}
