@@ -1,0 +1,17 @@
+p {
+    font-size: 20px;
+}
+
+h1, h2 {
+    color: darkgrey;
+}
+
+/* HW1_2 formulas
+=========================================== */
+
+.formulas {
+    font-size: 30px;
+    line-height: 2;
+    margin-top: 50px;
+    margin-left: 50px;
+}
