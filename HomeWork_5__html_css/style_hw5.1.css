@@ -1,0 +1,27 @@
+body {
+    width: 100vw;
+    margin: 0;
+    padding-left: 350px;
+    background-color: cornsilk;
+}
+
+div.april > ul > li:nth-child(even) {
+    color: pink;
+}
+
+div.may > ul > li:nth-child(odd) {
+    font-size: 22px;
+}
+
+div.june > ul > li:nth-child(2n+4):after {
+    content: "!";
+}
+
+div#july > ul > li:last-child {
+    color: violet;
+}
+
+div#august > ul > li:first-letter {
+    font-size: 30px;
+    color: red;
+}
