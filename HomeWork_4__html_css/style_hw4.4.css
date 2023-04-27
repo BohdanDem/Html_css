@@ -1,0 +1,94 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 650px;
+    height: 400px;
+    background-color: darkseagreen;
+    border-radius: 10px;
+}
+
+.header {
+    color: brown;
+    text-align: center;
+}
+
+.form-group {
+    width: 500;
+    font-size: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.block {
+    width: 75%;
+    margin-left: 25px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid grey;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.radio-btn {
+    margin-left: 25px;
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.radio-m {
+    margin: 0 5px 0 80px;
+    width: 18px;
+}
+
+.radio-f {
+    margin: 0 5px 0 30px;
+    margin-top: 0;
+    width: 18px;
+}
+
+p {
+    margin: 20px 25px 15px;
+}
+
+.checkbox {
+    font-size: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.check-boxes {
+    width: 18px;
+    margin-left: 25px;
+}
+
+.box {
+    margin-left: 5px;
+}
+
+.btn {
+    width: 230px;
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+    border: 1px solid gray;
+    margin: 20px 25px;
+    font-size: 18px;
+}

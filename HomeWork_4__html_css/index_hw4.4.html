@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_hw4.4.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index_hw4.4</title>
+</head>
+<body>
+    <form>
+        <h1 class="header">Заповніть поля анкети</h1>
+        <div class="block">
+            <div class="form-group">
+                <label for="name">Ваше ім'я</label>
+                <input type="text" name="name" id="name" placeholder="Your name" required>
+            </div>
+            <div class="form-group">
+                <label for="surname">Ваше прізвище</label>
+                <input type="text" name="surname" id="surname" placeholder="Your surname" required>
+            </div>
+        </div>
+        <div class="radio-btn">Ваша стать     
+            <input class="radio-m" type="radio" name="choose_male" id="male">
+            <label for="male">Чоловік</label>
+
+            <input class="radio-f" type="radio" name="choose_male" id="female">
+            <label for="female">Жінка</label>
+        </div>
+        <p>Послугами якої сотової компанії використуєтеся</p>
+        <div class="checkbox">
+            <input class="check-boxes" type="checkbox" name="rules_agree">
+            <label class="box">Kyivstar</label>
+
+            <input class="check-boxes" type="checkbox" name="rules_agree">
+            <label class="box">MTS</label>
+
+            <input class="check-boxes" type="checkbox" name="rules_agree">
+            <label class="box">Life:)</label>
+
+            <input class="check-boxes" type="checkbox" name="rules_agree">
+            <label class="box">PeopleNet</label>
+
+            <input class="check-boxes" type="checkbox" name="rules_agree">
+            <label class="box">Utel</label>
+        </div>
+        <input class="btn" type="submit" value="Надіслати анкету">
+        <input class="btn" type="reset" value="Очистити бланк">
+    </form>
+</body>
+</html>
