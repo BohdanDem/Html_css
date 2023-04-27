@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.A {
+    width: 100vw;
+    height: 33.3333%;
+    background-color: lightcyan;
+}
+
+main {
+    height: 66.6666%;
+    width: 100vw;
+    display: flex;
+}
+
+section {
+    height: 100%;
+    width: 75%;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside {
+    height: 100%;
+    width: 25%;
+    background-color: lightgreen;
+}
+
+.box {
+    height: 50%;
+    width: calc(100%/3);
+}
+
+.B {
+    background-color: lightgoldenrodyellow;
+}
+
+.C {
+    background-color: gainsboro;
+}
+
+.D {
+    background-color: aliceblue;
+}
+
+.E {
+    background-color: peachpuff;
+}
+
+.F {
+    background-color: khaki;
+}
+
+.G {
+    background-color: pink;
+}
+
+.cent {
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

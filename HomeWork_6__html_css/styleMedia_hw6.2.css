@@ -1,0 +1,25 @@
+@media screen and (min-width: 300px) and (max-width: 800px) {
+
+    .A {
+        width: 100vw;
+        height: 20%;
+    }
+
+    main {
+        height: 80%;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section {
+        height: 50%;
+        width: 100%;
+    }
+    
+    aside {
+        height: 50%;
+        width: 100%;
+    }
+
+}

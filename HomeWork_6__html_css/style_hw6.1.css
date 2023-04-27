@@ -1,0 +1,61 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.A {
+    width: 100vw;
+    height: 33.3333%;
+    background-color: lightcyan;
+}
+
+main {
+    height: 66.6666%;
+    display: flex;
+}
+
+section {
+    height: 100%;
+    width: 75%;
+}
+
+aside {
+    height: 100%;
+    width: 25%;
+    background-color: lightgreen;
+}
+
+.B {
+    height: 50%;
+    background-color: lightgray;
+}
+
+.content {
+    height: 50%;
+    display: flex;
+}
+
+.box {
+    height: 100%;
+    width: calc(100%/3);
+}
+
+.C {
+    background-color: lightgoldenrodyellow;
+}
+
+.D {
+    background-color: aliceblue;
+}
+
+.E {
+    background-color: peachpuff;
+}
+
+.cent {
+    font-size: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
